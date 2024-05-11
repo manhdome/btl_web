@@ -1,0 +1,95 @@
+/* pay */
+.pay {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.info {
+    border: 1px solid #ddd; /* Sử dụng màu sáng hơn cho border */
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm shadow để tạo hiệu ứng nổi bật */
+}
+
+.check_info div {
+    flex-direction: column; /* Hiển thị input dưới dạng cột */
+    margin-bottom: 15px;
+}
+
+.check_info input, .check_info textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Cho phép điều chỉnh chiều cao theo chiều dọc */
+}
+
+/* pay table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.thanhtoan {
+    background-color: #f05d40;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.thanhtoan:hover {
+    background-color: #d63b1a; /* Màu khi hover */
+}
+
+/* Additional styling for h3 */
+.pay h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5; /* Màu nền cho h3 */
+    border-radius: 5px;
+}
+
+/* Additional styling for table */
+.tb_total {
+    border: 1px solid #C4DFDF;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.cart_tolsss {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cart_tolsss th,
+.cart_tolss th,
+.cart_tolsss td,
+.cart_tolss td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart_tolss {
+    border-top: 1px solid #C4DFDF;
+}
